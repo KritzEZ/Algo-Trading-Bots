@@ -2,6 +2,8 @@
 #go short if SPY is in downtrend (below 30-day SMA) and within 5% of 52-week low
 #liquidate if it fall out of these ranges
 
+#Plotting SMA, 52-week high and 52-week low
+
 # region imports
 from AlgorithmImports import *
 from collections import deque
